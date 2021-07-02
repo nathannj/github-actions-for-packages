@@ -65,4 +65,4 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         repository: nathannj/github-actions-for-packages/tic-tac-toe
-          tag_with_sha: true
+        tag_with_sha: true
