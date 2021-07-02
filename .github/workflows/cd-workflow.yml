@@ -3,6 +3,7 @@
 name: Docker CD
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "**Dockerfile**"
